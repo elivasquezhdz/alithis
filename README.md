@@ -20,3 +20,18 @@ It mints an NFT for the dataset and stores a SHA256 hash of each data point. Thi
 When creating a machine learning model, there is lots of metadata and hyper parameters related to fine tuning and optimization that helps it work in the best manner, this information is also minted along with the dataset in an NFT so we can have a way to relate the data to the model.
 
 Alithis is a proof of concept for AI model traceability, it allows to verify the data origin for machine learning models.
+
+**Proof of Concept**
+
+To use this project, run the jupyter notebook, this will download the json files.
+These files have to be hosted (on lighthouse) as they hold all the dataset hashes. [Example here](https://gateway.lighthouse.storage/ipfs/QmQxacstpd2WLzJmTa9tk82XPYEZRiV8h6TC4QVhS8iqSk)
+
+After adding this data to the contract on _dataset-model-nft/contracts/datanft.sol_
+
+Then
+
+`npx hardhat run scripts/run.js`
+
+or
+
+`npx hardhat run scripts/deploy.js`
