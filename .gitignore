@@ -107,3 +107,15 @@ dist
 #Other
 .DS_Store
 .ipynb_checkpoints/
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+dataset-model-nft/node_modules/*
