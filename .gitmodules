@@ -1,3 +1,6 @@
 [submodule "alithispage"]
 	path = alithispage
 	url = https://github.com/elivasquezhdz/alithispage
+[submodule "alithis-mnist"]
+	path = alithis-mnist
+	url = https://github.com/elivasquezhdz/alithis-mnist

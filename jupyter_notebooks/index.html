@@ -1,0 +1,39 @@
+<html>
+<head>
+    <script>
+
+        let url = 'https://gateway.lighthouse.storage/ipfs/QmXcyD9rALRKCoz3KCk7GeGVZd1H3YjDYy5LGhnFtG6nfP';
+        let hasht2test = '2d1c3087ac5f2bed7c4d54a1b33bf75d09f479ee63c0df2e0a4378f6e7e9ae66';
+        let data;
+
+        
+        async function getData(url) {
+            const response = await fetch(url);
+            return response.json();
+        }
+
+
+        function gd() {
+            return getData(url);
+        }
+
+        (async() =>{
+                data = await gd(url);
+                let imghashes = data['image_sha256_hashes'];
+
+                for(prop in imghashes){
+                    if(imghashes[prop].includes(hasht2test)){
+                        console.log("hash found");
+                    }
+                }
+                console.log({ data })
+        })();
+ 
+        
+        
+    </script>
+</head>
+
+
+
+</html>
