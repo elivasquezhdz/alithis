@@ -6,11 +6,12 @@
 
 [ETHGlobal Link](https://ethglobal.com/showcase/alithis-6s995)
 [Live Demo](https://alithispage-dcf298.spheron.app/)
+[Mnist verification app](
 
 **Short description**
 
-Alithis brings traceability to machine learning models, using the power of filecoin it maps datasets and models resulting in a
-comprehensive relation of the datatransformations and modeling. It stores such data in a persistent manner by minting an NFT of the dataset and models.
+Alithis, it's purpose is to promote AI safety and traceability to machine learning models trough the power of blockchain.
+We're proposing means to map datasets and models resulting in a comprehensive relation of the data, it's model process, and stores the data persistently.
 
 **Long description**
 
