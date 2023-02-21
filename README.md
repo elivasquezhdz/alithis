@@ -6,7 +6,7 @@
 
 [ETHGlobal Link](https://ethglobal.com/showcase/alithis-6s995)
 [Live Demo](https://alithispage-dcf298.spheron.app/)
-[Mnist verification app](
+[Mnist verification app](https://alithis-mnist.elfx.repl.co/)
 
 **Short description**
 
