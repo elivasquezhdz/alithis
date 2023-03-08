@@ -4,3 +4,6 @@
 [submodule "alithis-mnist"]
 	path = alithis-mnist
 	url = https://github.com/elivasquezhdz/alithis-mnist
+[submodule "alithis-whitepaper"]
+	path = alithis-whitepaper
+	url = https://github.com/elivasquezhdz/alithis-whitepaper
